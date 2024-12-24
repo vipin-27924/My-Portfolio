@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <style>
+
+      .abouheight{
+        height: 1200px;
+      }
+
+      .pl-100{
+        padding-left:400px ;
+      }
+      .pt{
+        padding-top: 1000px;
+      }
+
+
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes popIn {
+            0% { transform: scale(0.95); opacity: 0; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+
+        .fade-in {
+            animation: fadeIn 1s ease-out;
+        }
+
+        .pop-in {
+            animation: popIn 2s ease-out;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans bg-cover fade-in "
+style="background-image: url(WhatsApp\ Image\ 2024-12-24\ at\ 3.42.10\ PM.jpeg);">
+<header class="h-12 bg-blue-950 fade-in flex ">
+  <p class="pt-3 h-12 w-72 font-bold pl-4 italic from-stone-950 to-white  pointer-events-none"><i class="ri-info-card-line pr-1"></i>My Portfolio
+
+  </p>
+  <div id="nav" class="h-12 flex justify-evenly pl-100 ">
+  <a href="#aboutme" class="px-5 pt-3 pop-in">About Me</a>
+  <a href="#projects" class="px-5 pt-3 pop-in">My Skills</a>
+  <a href="#" class="px-5 pt-3 pop-in">My Skills</a>
+  <a href="" class="px-5 pt-3 pop-in">My Project</a>
+  <a href="" class="px-5 pt-3 pop-in">Contact Me</a>
+</div>  
+</header>
+
+
+<main>
+  <div id="blank" class="abouheight">
+    
+  </div>
+
+  
+<div id="aboutme" class="   text-6xl text-black italic font-bold font-serif border-dotted">
+  <h1 class="flex justify-center">About Me</h1>
+  <p class="text-center text-lg pt-4 px-9 text-green-950">Hi, I'm Vipin Kumar! I'm currently in my first year of pursuing a B.Tech in Computer Science and Engineering, specializing in Artificial Intelligence and Machine Learning. My passion lies in exploring the endless possibilities of AI and its transformative potential in shaping the future.</p>
+</div>
+
+
+<div id="projets"></div>
+
+
+</main>
+  
+  
+</body>
+</html>
